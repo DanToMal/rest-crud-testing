@@ -1,0 +1,5 @@
+books-api:
+  baseUrl:
+  port:
+  username: ${books-username}
+  password: ${books-password}

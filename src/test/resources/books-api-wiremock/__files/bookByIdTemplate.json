@@ -1,0 +1,9 @@
+{
+  "id": "{{request.path.[3]}}",
+  "name": "Test Driven Development: By Example",
+  "author": "Kent Beck",
+  "publication": "Addison-Wesley Professional",
+  "category": "Programming",
+  "pages": 240,
+  "price": 29.26
+}

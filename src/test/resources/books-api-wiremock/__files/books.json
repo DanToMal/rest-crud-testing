@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "publication": "Prentice Hall",
+    "category": "Programming",
+    "pages": 464,
+    "price": 22
+  },
+  {
+    "id": 2,
+    "name": "Test Driven Development: By Example",
+    "author": "Kent Beck",
+    "publication": "Addison-Wesley Professional",
+    "category": "Programming",
+    "pages": 240,
+    "price": 29.26
+  }
+]

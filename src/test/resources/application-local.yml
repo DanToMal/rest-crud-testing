@@ -1,0 +1,9 @@
+books-api:
+  baseUrl: http://localhost
+  basePath: api/v1/books
+  port: 17354
+  username: user
+  password: pass
+wiremock:
+  enabled: true
+  dir: classpath:books-api-wiremock
