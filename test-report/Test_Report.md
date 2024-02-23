@@ -3,9 +3,9 @@
 # Table of Contents
 
 1. [Overview](#Overview)
-2. [Test Objective](#Test Objective)
-3. [Test Execution Summary](#Testing Approach)
-4. [Defect Report](#Defect Report)
+2. [Test Objective](#Test-Objective)
+3. [Test Execution Summary](#Testing-Approach)
+4. [Defect Report](#Defect-Report)
 5. [Approvals](#Approvals)
 
 ## Overview
@@ -61,7 +61,6 @@ Defect #2 \
 Defect Description: Internal Server Error after calling POST method with a book which already exists (with id). \
 * [_api-v1-books_POST_2024-02-23T13:18:06.881563Z.log](evidences%2F_api-v1-books_POST_2024-02-23T13%3A18%3A06.881563Z.log)\
 Steps to reproduce: Rerun "Create a book which already exists" scenario or curl with above data. \
-[//]: # (TODO details to be added)
 
 Defect #3 \
 Defect Description: Internal Server Error after calling DELETE method. \
@@ -70,7 +69,6 @@ Defect Description: Internal Server Error after calling DELETE method. \
 * [ERROR__api-v1-books_DELETE_2024-02-23T13:17:52.242677Z.log](evidences%2FERROR__api-v1-books_DELETE_2024-02-23T13%3A17%3A52.242677Z.log)
 * [ERROR__api-v1-books_DELETE_2024-02-23T13:18:05.243210Z.log](evidences%2FERROR__api-v1-books_DELETE_2024-02-23T13%3A18%3A05.243210Z.log) \
 Steps to reproduce: Rerun "Delete Book via REST CRUD service" scenario or curl with above data. \
-[//]: # (TODO details to be added)
 
 Defect #4 \
 Defect Description: Wrong scale of price field. Note, this behaviour is nondeterministic.\
@@ -79,7 +77,6 @@ actual value  : 29.260000100000003 \
 expected value: 29.26 
 * [_api-v1-books_POST_2024-02-23T13:17:33.763706Z.log](evidences%2F_api-v1-books_POST_2024-02-23T13%3A17%3A33.763706Z.log) \
 Steps to reproduce: Rerun "Create a Book: Positive" scenario or curl with above data. \
-[//]: # (TODO details to be added)
 
 ## Approvals
 N/A
