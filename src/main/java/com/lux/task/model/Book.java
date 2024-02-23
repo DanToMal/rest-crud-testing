@@ -1,6 +1,8 @@
 package com.lux.task.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.lux.task.serializer.PriceJsonSerializer;
 import lombok.*;
 
 @Data
@@ -16,5 +18,6 @@ public class Book {
     private String publication;
     private String category;
     private long pages;
-    private double price;
+    @JsonSerialize(using= PriceJsonSerializer.class)
+    private Double price;
 }

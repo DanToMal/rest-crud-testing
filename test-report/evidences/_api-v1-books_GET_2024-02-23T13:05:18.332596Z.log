@@ -1,0 +1,11 @@
+GET http://77.102.250.113:17354/api/v1/books/1633 => 200 HTTP/1.1 200  
+Request Body =>  
+Response Status => 200 Response Body => {
+    "id": 1633,
+    "name": "No content",
+    "author": "author",
+    "publication": "publication",
+    "category": "<category>",
+    "pages": -4,
+    "price": -4.0
+}

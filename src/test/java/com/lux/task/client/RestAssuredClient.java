@@ -16,10 +16,12 @@ import static io.restassured.RestAssured.*;
 @Slf4j
 @Component
 public class RestAssuredClient implements RestClient<Book, Long, Response> {
+    private static final String ID_PATH_PARAM = "/{id}";
     private final RequestSpecification spec;
 
-    public RestAssuredClient(BooksApiConfig config) {
-        this.spec = booksApiRequestSpecification(config);
+    public RestAssuredClient(BooksApiConfig config, RestAssuredLogFilter restAssuredRequestFilter) {
+        this.spec = booksApiRequestSpecification(config)
+                .filter(restAssuredRequestFilter);
     }
 
     @Override
@@ -38,7 +40,7 @@ public class RestAssuredClient implements RestClient<Book, Long, Response> {
     public Response read(Long id) {
         return RestAssured.given(spec)
                 .pathParam("id", id)
-                .get("/{id}");
+                .get(ID_PATH_PARAM);
     }
 
     @Override
@@ -46,7 +48,7 @@ public class RestAssuredClient implements RestClient<Book, Long, Response> {
         return RestAssured.given(spec)
                 .pathParam("id", book.getId())
                 .body(book)
-                .put("/{id}");
+                .put(ID_PATH_PARAM);
     }
 
     @Override
@@ -60,7 +62,7 @@ public class RestAssuredClient implements RestClient<Book, Long, Response> {
     public Response delete(Long id) {
         return RestAssured.given(spec)
                 .pathParam("id", id)
-                .delete("/{id}");
+                .delete(ID_PATH_PARAM);
     }
 
     private RequestSpecification booksApiRequestSpecification(BooksApiConfig config) {

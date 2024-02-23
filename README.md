@@ -14,12 +14,18 @@ and then run Cucumber tests from maven command: `mvn clean test`, or pass the us
    ```
    mvn clean test -Dbooks.username=XXX -Dbooks.password=YYY
    ```
+
+To run specific set of tests indicated by given @tag
+   ```
+   mvn test -Dcucumber.options="--tags '@create'"
+   ```
 ## Local Development
 To run tests against local standalone WireMock server instance run following
 
 ```
 mvn clean test -Dspring.profiles.active=local
 ```
+**Please note the local profile is ONLY for the development purposes! Not the actual testing.**
 
 ## Reference Documentation
 

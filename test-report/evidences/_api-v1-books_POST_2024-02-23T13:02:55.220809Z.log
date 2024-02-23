@@ -1,0 +1,11 @@
+POST http://77.102.250.113:17354/api/v1/books => 200 HTTP/1.1 200  
+Request Body => {"name":"Clean Code: A Handbook of Agile Software Craftsmanship","author":"Robert C. Martin","publication":"Prentice Hall","category":"<category>","pages":464,"price":"22"} 
+Response Status => 200 Response Body => {
+    "id": 1631,
+    "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "author": "Robert C. Martin",
+    "publication": "Prentice Hall",
+    "category": "<category>",
+    "pages": 464,
+    "price": 22.0
+}

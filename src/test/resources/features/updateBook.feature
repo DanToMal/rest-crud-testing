@@ -1,4 +1,5 @@
-Feature: Test Books Api
+@update
+Feature: Update Book via REST CRUD service
 
   Background:
     Given Client is able to access Books API

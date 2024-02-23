@@ -4,3 +4,5 @@ books-api:
   port: 17354
   username: ${books.username}
   password: ${books.password}
+test-evidences:
+  dir: evidences

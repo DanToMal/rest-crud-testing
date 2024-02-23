@@ -27,16 +27,16 @@ public class CreateBookStepDefinitions extends AbstractBooksStepDefinitions {
         Response response = restClient.create(expected);
         Book actual = parseResponse(response, new TypeRef<>() {
         });
-        booksContext.add(actual);
 
         Assertions.assertThat(actual)
                 .usingRecursiveComparison()
                 .ignoringFields("id")
                 .isEqualTo(expected);
         responseStatusCodeIs(response, EXPECTED_STATUS_ON_CREATE);
+        booksContext.add(actual);
     }
 
-    @When("Already existing book is created")
+    @When("Already created book is created again")
     public void alreadyExistingBookIsCreated() {
         List<Book> books = booksContext.getBooks();
         Book book = books.stream().findAny()

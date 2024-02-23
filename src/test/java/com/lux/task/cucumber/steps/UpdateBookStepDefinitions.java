@@ -40,8 +40,8 @@ public class UpdateBookStepDefinitions extends AbstractBooksStepDefinitions {
         toUpdate.setId(ID);
 
         Response response = restClient.update(toUpdate);
-        booksContext.add(toUpdate);
         responseStatusCodeIs(response, EXPECTED_STATUS_ON_UPDATE);
+        booksContext.add(toUpdate);
     }
 
     private OptionalLong findMaxBookID() {
