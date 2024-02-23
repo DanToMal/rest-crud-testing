@@ -10,11 +10,11 @@ import lombok.*;
 @EqualsAndHashCode
 public class Book {
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    public Long id;
-    public String name;
-    public String author;
-    public String publication;
-    public String category;
-    public long pages;
-    public double price;
+    private Long id;
+    private String name;
+    private String author;
+    private String publication;
+    private String category;
+    private long pages;
+    private double price;
 }

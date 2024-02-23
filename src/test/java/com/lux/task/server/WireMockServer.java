@@ -24,6 +24,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 @Component
 @ConditionalOnProperty(name = "wiremock.enabled")
 public class WireMockServer {
+    private static final String PATH_PARAM = "/{bookId}";
     private final BooksApiConfig config;
     private final Resource dir;
 
@@ -39,10 +40,11 @@ public class WireMockServer {
         com.github.tomakehurst.wiremock.WireMockServer wireMockServer = new com.github.tomakehurst.wiremock.WireMockServer(options);
 
         wireMockServer.start();
-        wireMockServer.addStubMapping(readAllBooks());
-        wireMockServer.addStubMapping(readBookById());
-        wireMockServer.addStubMapping(updateBook());
-        wireMockServer.addStubMapping(createBook());
+        wireMockServer.addStubMapping(getOrHeadBooks());
+        wireMockServer.addStubMapping(getBookById());
+        wireMockServer.addStubMapping(postBook());
+        wireMockServer.addStubMapping(putBook());
+        wireMockServer.addStubMapping(deleteBook());
         log.info("Started WireMock Server");
         return wireMockServer;
     }
@@ -54,27 +56,34 @@ public class WireMockServer {
                 .usingFilesUnderClasspath(dir.getFilename());
     }
 
-    private StubMapping readAllBooks() {
+    private StubMapping getOrHeadBooks() {
         UrlPattern basePath = urlEqualTo(resolveBasePath());
-        return stubMapping(WireMock::get, basePath, "books.json", 200)
+        return stubMapping(WireMock::getOrHead, basePath, "books.json", 200)
                 .build();
     }
 
-    private StubMapping readBookById() {
+    private StubMapping getBookById() {
         String basePath = resolveBasePath();
         return stubMapping(WireMock::get, urlPathTemplate(basePath + "/{bookId}"), "bookByIdTemplate.json", 200)
                 .withPathParam("bookId", matching("[0-9]+"))
                 .build();
     }
 
-    private StubMapping updateBook() {
+    private StubMapping putBook() {
         String basePath = resolveBasePath();
-        return stubMapping(WireMock::put, urlPathTemplate(basePath + "/{bookId}"), "updateBookTemplate.json", 200)
+        return stubMapping(WireMock::put, urlPathTemplate(basePath + "/{bookId}"), "bookTemplate.json", 200)
                 .withPathParam("bookId", matching("[0-9]+"))
                 .build();
     }
 
-    private StubMapping createBook() {
+    private StubMapping deleteBook() {
+        String basePath = resolveBasePath();
+        return stubMapping(WireMock::delete, urlPathTemplate(basePath + "/{bookId}"), "bookTemplate.json", 200)
+                .withPathParam("bookId", matching("[0-9]+"))
+                .build();
+    }
+
+    private StubMapping postBook() {
         UrlPattern basePath = urlEqualTo(resolveBasePath());
         return stubMapping(WireMock::post, basePath, "createBookTemplate.json", 200)
                 .build();

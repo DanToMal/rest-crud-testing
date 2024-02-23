@@ -1,59 +1,25 @@
 package com.lux.task.client;
 
-import com.lux.task.config.BooksApiConfig;
-import com.lux.task.model.Book;
-import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
-
-import static io.restassured.RestAssured.*;
-
-@Slf4j
-@Component
-public class RestClient {
-    private final RequestSpecification spec;
-
-    public RestClient(BooksApiConfig config) {
-        this.spec = booksApiRequestSpecification(config);
-    }
+/**
+ * @param <T>  type of entity.
+ * @param <ID> type of entity ID.
+ * @param <R>  type of response.
+ */
+public interface RestClient<T, ID, R> {
 
     /**
-     * Read all books
+     * Retrieves only the headers of the response, not the actual body content.
+     * Can be used to check the availability of resources.
      */
-    public Response getAllBooks() {
-        return RestAssured.given(spec)
-                .get();
-    }
+    R head();
 
-    public Response createBook(Book book) {
-        return RestAssured.given(spec)
-                .body(book)
-                .post();
-    }
+    R readAll();
 
-    /**
-     * Read a particular book by ID
-     */
-    public Response getBookByID(int id) {
-        return RestAssured.given(spec)
-                .pathParam("id", id)
-                .get("/{id}");
-    }
+    R read(ID id);
 
-    private RequestSpecification booksApiRequestSpecification(BooksApiConfig config) {
-        return new RequestSpecBuilder()
-                .setBaseUri(config.getBaseUrl())
-                .setBasePath(config.getBasePath())
-                .setPort(config.getPort())
-                .setAuth(preemptive().basic(config.getUsername(), config.getPassword()))
-                .setContentType(ContentType.JSON)
-                .setAccept(ContentType.JSON)
-                .setRelaxedHTTPSValidation()
-                .build();
-    }
+    R create(T object);
+
+    R update(T object);
+
+    R delete(ID id);
 }
-

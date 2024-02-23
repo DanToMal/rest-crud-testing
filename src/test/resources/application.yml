@@ -1,5 +1,6 @@
 books-api:
-  baseUrl:
-  port:
-  username: ${books-username}
-  password: ${books-password}
+  baseUrl: http://77.102.250.113
+  basePath: api/v1/books
+  port: 17354
+  username: ${books.username}
+  password: ${books.password}

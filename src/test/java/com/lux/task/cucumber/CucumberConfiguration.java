@@ -12,10 +12,10 @@ import java.lang.reflect.Type;
 
 @CucumberContextConfiguration
 @SpringBootTest
-public class CucumberSpringConfiguration {
+public class CucumberConfiguration {
     private final ObjectMapper objectMapper;
 
-    public CucumberSpringConfiguration() {
+    public CucumberConfiguration() {
         this.objectMapper = new ObjectMapper();
     }
 
