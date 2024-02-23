@@ -18,6 +18,6 @@ public class Book {
     private String publication;
     private String category;
     private long pages;
-    @JsonSerialize(using= PriceJsonSerializer.class)
+    @JsonSerialize(using = PriceJsonSerializer.class)
     private Double price;
 }

@@ -75,6 +75,6 @@ public class RestAssuredLogFilter implements Filter {
                 .format(Instant.now());
         String basePath = requestSpec.getBasePath().replaceAll("/", "-");
         String errorPrefix = isError ? "ERROR_" : "";
-        return String.format("%s_%s_%s_%s.log", errorPrefix, basePath, method, timeStamp);
+        return String.format("%s%s_%s_%s.log", errorPrefix, basePath, method, timeStamp);
     }
 }

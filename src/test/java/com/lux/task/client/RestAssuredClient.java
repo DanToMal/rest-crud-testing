@@ -4,7 +4,6 @@ import com.lux.task.config.BooksApiConfig;
 import com.lux.task.model.Book;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -19,9 +18,9 @@ public class RestAssuredClient implements RestClient<Book, Long, Response> {
     private static final String ID_PATH_PARAM = "/{id}";
     private final RequestSpecification spec;
 
-    public RestAssuredClient(BooksApiConfig config, RestAssuredLogFilter restAssuredRequestFilter) {
+    public RestAssuredClient(BooksApiConfig config, RestAssuredLogFilter logFilter) {
         this.spec = booksApiRequestSpecification(config)
-                .filter(restAssuredRequestFilter);
+                .filter(logFilter);
     }
 
     @Override
@@ -67,7 +66,6 @@ public class RestAssuredClient implements RestClient<Book, Long, Response> {
 
     private RequestSpecification booksApiRequestSpecification(BooksApiConfig config) {
         return new RequestSpecBuilder()
-                .addFilter(new ResponseLoggingFilter())
                 .setBaseUri(config.getBaseUrl())
                 .setBasePath(config.getBasePath())
                 .setPort(config.getPort())
