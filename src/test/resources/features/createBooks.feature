@@ -12,7 +12,7 @@ Feature: Create Book via REST CRUD service
     Then Read all books response contains created books
 
     Examples:
-      | scenario         | name                                                   | author           | publication                 | publication | pages | price  |
+      | scenario         | name                                                   | author           | publication                 | category    | pages | price  |
       | Positive         | Test Driven Development: By Example                    | Kent Beck        | Addison-Wesley Professional | Programming | 240   | 29.26  |
       | Positive2        | Clean Code: A Handbook of Agile Software Craftsmanship | Robert C. Martin | Prentice Hall               | Programming | 464   | 22     |
       | special_chars    | &quot;cool&quot;                                       | 'n'\t    ${}     | null                        | //s         | 999   | 100.01 |

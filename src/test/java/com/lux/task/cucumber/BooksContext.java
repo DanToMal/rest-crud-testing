@@ -21,7 +21,9 @@ public class BooksContext {
     }
 
     public void add(Book book) {
-        books.put(book.getId(), book);
+        if (book != null) {
+            books.put(book.getId(), book);
+        }
     }
 
     public List<Book> getBooks() {
@@ -57,7 +59,9 @@ public class BooksContext {
     }
 
     public void remove(Book book) {
-        books.remove(book.getId());
-        removed.put(book.getId(), book);
+        if (book != null) {
+            books.remove(book.getId());
+            removed.put(book.getId(), book);
+        }
     }
 }

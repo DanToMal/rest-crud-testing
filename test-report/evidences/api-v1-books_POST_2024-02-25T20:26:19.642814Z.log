@@ -1,0 +1,11 @@
+POST http://77.102.250.113:17354/api/v1/books => 200 HTTP/1.1 200  
+Request Body => {"name":"Test Driven Development: By Example","author":"Kent Beck","publication":"Addison-Wesley Professional","category":"Programming","pages":999,"price":29.26} 
+Response Status => 200 Response Body => {
+    "id": 1689,
+    "name": "Test Driven Development: By Example",
+    "author": "Kent Beck",
+    "publication": "Addison-Wesley Professional",
+    "category": "Programming",
+    "pages": 999,
+    "price": 29.260000100000003
+}

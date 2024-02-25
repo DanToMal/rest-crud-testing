@@ -12,6 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.assertj.core.api.Assertions;
 import org.springframework.util.CollectionUtils;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @Slf4j
@@ -25,15 +26,15 @@ public class CreateBookStepDefinitions extends AbstractBooksStepDefinitions {
     @Then("Following Book is created")
     public void followingBookIsCreated(Book expected) {
         Response response = restClient.create(expected);
-        Book actual = parseResponse(response, new TypeRef<>() {
-        });
+        Book actual = parseResponseToBook(response);
 
+        responseStatusCodeIs(response, EXPECTED_STATUS_ON_CREATE);
+        booksContext.add(actual);
         Assertions.assertThat(actual)
+                .usingComparatorForType(BigDecimal::compareTo, BigDecimal.class)
                 .usingRecursiveComparison()
                 .ignoringFields("id")
                 .isEqualTo(expected);
-        responseStatusCodeIs(response, EXPECTED_STATUS_ON_CREATE);
-        booksContext.add(actual);
     }
 
     @When("Already created book is created again")

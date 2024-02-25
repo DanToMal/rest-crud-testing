@@ -1,9 +1,9 @@
 package com.lux.task.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.lux.task.serializer.PriceJsonSerializer;
 import lombok.*;
+
+import java.math.BigDecimal;
 
 @Data
 @Builder
@@ -18,6 +18,5 @@ public class Book {
     private String publication;
     private String category;
     private long pages;
-    @JsonSerialize(using = PriceJsonSerializer.class)
-    private Double price;
+    private BigDecimal price;
 }

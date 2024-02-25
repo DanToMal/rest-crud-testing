@@ -1,0 +1,7519 @@
+GET http://77.102.250.113:17354/api/v1/books => 200 HTTP/1.1 200  
+Request Body =>  
+Response Status => 200 Response Body => [
+    {
+        "id": 534,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 536,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 539,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 541,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -448,
+        "price": 35.5
+    },
+    {
+        "id": 543,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 546,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 548,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 549,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 552,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 553,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 555,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 556,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 560,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 562,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 0,
+        "price": 35.5
+    },
+    {
+        "id": 564,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": -35.5
+    },
+    {
+        "id": 570,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 572,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 573,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 574,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 576,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 577,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 578,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 579,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 580,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 583,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 584,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 587,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 589,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -448,
+        "price": 35.5
+    },
+    {
+        "id": 591,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 592,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 594,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 595,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 596,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 597,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 600,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 601,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 602,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 603,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 604,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 605,
+        "name": "",
+        "author": "",
+        "publication": "",
+        "category": "",
+        "pages": 0,
+        "price": 0.0
+    },
+    {
+        "id": 606,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 607,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 610,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 0,
+        "price": 35.5
+    },
+    {
+        "id": 611,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 616,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 620,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 621,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 622,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 624,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 625,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 1001,
+        "price": 1.0
+    },
+    {
+        "id": 626,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 627,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 628,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 630,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 631,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 632,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 634,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 0,
+        "price": 35.5
+    },
+    {
+        "id": 635,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 636,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": -35.5
+    },
+    {
+        "id": 638,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 639,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 640,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 641,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 642,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 644,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 645,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 646,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 648,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 649,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 650,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 651,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 652,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 654,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 655,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 658,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 0,
+        "price": 35.5
+    },
+    {
+        "id": 663,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 664,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 665,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 667,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 669,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 670,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 450,
+        "price": 1.0
+    },
+    {
+        "id": 672,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 673,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 675,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 676,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 680,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 681,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 682,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 0,
+        "price": 35.5
+    },
+    {
+        "id": 690,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 693,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 696,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 697,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 698,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 699,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 700,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 702,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 703,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 704,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 708,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": -35.5
+    },
+    {
+        "id": 709,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -448,
+        "price": 35.5
+    },
+    {
+        "id": 710,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 717,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 720,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 721,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 723,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 724,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 727,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 729,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 733,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -448,
+        "price": 35.5
+    },
+    {
+        "id": 736,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 737,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 741,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 450,
+        "price": 1.0
+    },
+    {
+        "id": 744,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 745,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 746,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 747,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 748,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 750,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 751,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 755,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 758,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 762,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 764,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 765,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 768,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 769,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 771,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 772,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 777,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 780,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": -35.5
+    },
+    {
+        "id": 783,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 784,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 786,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 789,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 792,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 793,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 795,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 796,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 799,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 800,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 802,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 0,
+        "price": 35.5
+    },
+    {
+        "id": 803,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 805,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -448,
+        "price": 35.5
+    },
+    {
+        "id": 807,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 811,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 813,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 816,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 817,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 819,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 820,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 822,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 825,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 827,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 830,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 833,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 837,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 839,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 840,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 841,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 842,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 843,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 844,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 846,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 848,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 849,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 852,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": -35.5
+    },
+    {
+        "id": 856,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 857,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 859,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 860,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 861,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 862,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 864,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 865,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 867,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 868,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 872,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 873,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 874,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 0,
+        "price": 35.5
+    },
+    {
+        "id": 875,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 876,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": -35.5
+    },
+    {
+        "id": 877,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -448,
+        "price": 35.5
+    },
+    {
+        "id": 878,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 879,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 881,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 882,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 883,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 884,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 885,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 888,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 889,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 891,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 892,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 895,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 896,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 897,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 899,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 901,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -448,
+        "price": 35.5
+    },
+    {
+        "id": 905,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 908,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 909,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 912,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 913,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 915,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 916,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 920,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 923,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 924,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": -35.5
+    },
+    {
+        "id": 927,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 928,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 929,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 930,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 932,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 933,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 935,
+        "name": "",
+        "author": "",
+        "publication": "",
+        "category": "",
+        "pages": -90,
+        "price": -132.0
+    },
+    {
+        "id": 936,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 937,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 938,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 939,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 940,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 202,
+        "price": 199.9
+    },
+    {
+        "id": 943,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 944,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 945,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 946,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 947,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 948,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 949,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 951,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 952,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 953,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 954,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 202,
+        "price": 199.9
+    },
+    {
+        "id": 955,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 956,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 957,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 959,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 960,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 961,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 963,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 964,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 965,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 966,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 967,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 968,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 970,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 971,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 972,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 973,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 974,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 975,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 976,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 977,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 979,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 980,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 981,
+        "name": null,
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 982,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 983,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 984,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 986,
+        "name": "Book To Be Updated",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 987,
+        "name": "Book To Be Updated",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 988,
+        "name": "Book To Be Updated",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 989,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 990,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 991,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 992,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 994,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 995,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 996,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 997,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 998,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 999,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1001,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1002,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1003,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1004,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1006,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1007,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1008,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1009,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1010,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1011,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1012,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1013,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1014,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1016,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1017,
+        "name": null,
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1018,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1019,
+        "name": null,
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1020,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1021,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1022,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1023,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1024,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1025,
+        "name": null,
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1026,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1027,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1029,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1030,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1031,
+        "name": null,
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1032,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1033,
+        "name": null,
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1034,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1035,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1037,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1038,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1039,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1040,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1041,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1042,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 0.0
+    },
+    {
+        "id": 1043,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 0.0
+    },
+    {
+        "id": 1044,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1045,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1046,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1047,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1048,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1049,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1050,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1051,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1053,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1054,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1055,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1056,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1057,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1058,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1059,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1060,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1061,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1063,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1064,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1065,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1066,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1067,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 2,
+        "price": 99.9
+    },
+    {
+        "id": 1068,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1069,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1070,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1071,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1072,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1074,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1075,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1076,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 1077,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1078,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1079,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1080,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": -200.0
+    },
+    {
+        "id": 1081,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1082,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1083,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1085,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1086,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1087,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1088,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1089,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1090,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1091,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1092,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1093,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1094,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1096,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1097,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1098,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1099,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1100,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1101,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1102,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1103,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1104,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1105,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1107,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1108,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 1110,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1111,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1112,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1113,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1114,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1115,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1116,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1118,
+        "name": "Book To Be Updated",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 202,
+        "price": 199.9
+    },
+    {
+        "id": 1119,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1120,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1121,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1122,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1123,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1124,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1125,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1126,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1127,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1129,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1130,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1131,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1132,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1133,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1134,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1135,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1136,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1137,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1138,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1140,
+        "name": "Book To Be Updated",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 202,
+        "price": 199.9
+    },
+    {
+        "id": 1141,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1142,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1143,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1144,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1145,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1146,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1147,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1148,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1149,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1150,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1151,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1153,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1154,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1155,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1156,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1157,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1158,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 0.0
+    },
+    {
+        "id": 1159,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1160,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1161,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1162,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1163,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1164,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1165,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1166,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1167,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1168,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1169,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1170,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1171,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1172,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1173,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1174,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1175,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1176,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1177,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1178,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1179,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1180,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1181,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1182,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1183,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1184,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1185,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1186,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1187,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1188,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1189,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1191,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1192,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1193,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1194,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1195,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1196,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1197,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1198,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1199,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1200,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1201,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1202,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1203,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1204,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1205,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1206,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1207,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1208,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1209,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1210,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1211,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1212,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1213,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1214,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1215,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1216,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1217,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1218,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1219,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1220,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1221,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1222,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1223,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1224,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1225,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1226,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1227,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1228,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1229,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1230,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1231,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1232,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1233,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1234,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1235,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1236,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 1237,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1238,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1239,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1240,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1241,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 1242,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1243,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1244,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1245,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1246,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1247,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1248,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1249,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1250,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1251,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1252,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1254,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1255,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1256,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1257,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1258,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1259,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1260,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1261,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1262,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1263,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1264,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1265,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1266,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 1267,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1268,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1269,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1270,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1271,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1272,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1273,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1275,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1276,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1277,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1278,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1279,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1280,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1281,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1282,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1283,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1284,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1285,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1286,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1287,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1288,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1289,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1290,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1291,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1292,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1293,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1294,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1295,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1296,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1297,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1298,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1299,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1300,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1301,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1302,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1303,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1304,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1306,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1307,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1308,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1309,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1310,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1311,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1312,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1313,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1314,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1315,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1316,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1317,
+        "name": "Book To Be Updated",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1318,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1319,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1320,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1321,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1322,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1323,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1324,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1325,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1326,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1327,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1328,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1329,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1330,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1331,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1332,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1333,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1334,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1335,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -98,
+        "price": 200.0
+    },
+    {
+        "id": 1336,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1337,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 1339,
+        "name": "Book To Be Updated",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 202,
+        "price": 199.9
+    },
+    {
+        "id": 1340,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1341,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1342,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1343,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1344,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1345,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1346,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1347,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1348,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 1350,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1351,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1352,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1353,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1354,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1355,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1356,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": -200.0
+    },
+    {
+        "id": 1357,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1358,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1359,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1361,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1362,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1363,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1364,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1365,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1366,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 0.0
+    },
+    {
+        "id": 1367,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1368,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -98,
+        "price": 200.0
+    },
+    {
+        "id": 1369,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1370,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1371,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1372,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1373,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1374,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1375,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1376,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1377,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1378,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1379,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1380,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1381,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1382,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1383,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1384,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1385,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1386,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 99.9
+    },
+    {
+        "id": 1387,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1388,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1389,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1390,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1391,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1392,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1393,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1394,
+        "name": "Book To Be Updated",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 202,
+        "price": 199.9
+    },
+    {
+        "id": 1395,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1396,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1397,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1398,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1399,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1400,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1401,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1402,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1403,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1405,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1406,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1407,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1408,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1409,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1410,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 102,
+        "price": 0.0
+    },
+    {
+        "id": 1411,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1412,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -98,
+        "price": 200.0
+    },
+    {
+        "id": 1413,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1415,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1416,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1417,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1418,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1419,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1420,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1421,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1422,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1423,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1424,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1426,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1427,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1428,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1429,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1430,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1431,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1432,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1433,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1434,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1435,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1437,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1438,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1439,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1440,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1441,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1442,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1443,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1444,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1445,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1446,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1448,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1449,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1450,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1451,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1452,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1453,
+        "name": "Book One",
+        "author": "",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1454,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 0,
+        "price": 99.9
+    },
+    {
+        "id": 1455,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 0.0
+    },
+    {
+        "id": 1456,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": -200.0
+    },
+    {
+        "id": 1457,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": -100,
+        "price": 200.0
+    },
+    {
+        "id": 1458,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1459,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1460,
+        "name": "Book To Be Removed",
+        "author": "Author Two",
+        "publication": "Sun Set Books",
+        "category": "New Age",
+        "pages": 200,
+        "price": 199.9
+    },
+    {
+        "id": 1461,
+        "name": "Updated name",
+        "author": "Updated Author",
+        "publication": "UpdatedSun Set Books",
+        "category": "UpdatedNew Age",
+        "pages": 200,
+        "price": 299.9
+    },
+    {
+        "id": 1462,
+        "name": "Book One",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1463,
+        "name": "",
+        "author": "Author One",
+        "publication": "New Dawn Books",
+        "category": "New Age",
+        "pages": 100,
+        "price": 99.9
+    },
+    {
+        "id": 1465,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 1466,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 1468,
+        "name": "Test Name",
+        "author": "Test author",
+        "publication": "Test publication",
+        "category": "Test category",
+        "pages": 999,
+        "price": 1.0
+    },
+    {
+        "id": 1469,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1471,
+        "name": "",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1475,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 2,
+        "price": 35.5
+    },
+    {
+        "id": 1476,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 0.0
+    },
+    {
+        "id": 1478,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -448,
+        "price": 35.5
+    },
+    {
+        "id": 1486,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 1487,
+        "name": "Updated Test Name",
+        "author": "Updated Test author",
+        "publication": "Updated Test publication",
+        "category": "Updated Test category",
+        "pages": 448,
+        "price": 1.0
+    },
+    {
+        "id": 1489,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1490,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1491,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1492,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1493,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1495,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1496,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1497,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1498,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1499,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1501,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1503,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1506,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1508,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1509,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1510,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1511,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1513,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1514,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1517,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1520,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1521,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1522,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1523,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1524,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1525,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1528,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1530,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1535,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1536,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1537,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1538,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 1539,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 450,
+        "price": 35.5
+    },
+    {
+        "id": 1540,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "publication",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1541,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1542,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1543,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1544,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1545,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1546,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 448,
+        "price": 35.5
+    },
+    {
+        "id": 1547,
+        "name": "nameBCKkbV",
+        "author": "authordptKTl",
+        "publication": "PublisherGpsfNO",
+        "category": "CategorybHaPMP",
+        "pages": 452,
+        "price": 749.0
+    },
+    {
+        "id": 1548,
+        "name": "nametYxoiE",
+        "author": "authordeiwoI",
+        "publication": "PublisherfMEBlv",
+        "category": "CategoryJsxSMr",
+        "pages": 846,
+        "price": 708.0
+    },
+    {
+        "id": 1549,
+        "name": "nameatpiGM",
+        "author": "authorwdpGwk",
+        "publication": "PublisherYwtPdn",
+        "category": "CategoryzQSeHo",
+        "pages": 416,
+        "price": 198.0
+    },
+    {
+        "id": 1550,
+        "name": "namePfQqLd",
+        "author": "authorRsdKZQ",
+        "publication": "PublishercZfGNq",
+        "category": "CategoryovXwbM",
+        "pages": 582,
+        "price": 619.0
+    },
+    {
+        "id": 1551,
+        "name": "nameqHtWAX",
+        "author": "authorddkkxe",
+        "publication": "PublisherjoZHsN",
+        "category": "CategoryRdjovs",
+        "pages": 525,
+        "price": 862.0
+    },
+    {
+        "id": 1552,
+        "name": "nameGDSTQW",
+        "author": "authorEzAGoa",
+        "publication": "PublisherbgnkLS",
+        "category": "CategoryYqetqi",
+        "pages": 637,
+        "price": 772.0
+    },
+    {
+        "id": 1553,
+        "name": "namewOnXkb",
+        "author": "authorYebKAa",
+        "publication": "PublisherdWMxKz",
+        "category": "CategoryJALZnv",
+        "pages": 933,
+        "price": 594.0
+    },
+    {
+        "id": 1554,
+        "name": "namepLnCyS",
+        "author": "authorBdhvIU",
+        "publication": "Bobby",
+        "category": "CategoryDDurvt",
+        "pages": 370,
+        "price": 421.0
+    },
+    {
+        "id": 1555,
+        "name": "namexFqkZy",
+        "author": "authorwOnWPu",
+        "publication": "Nana",
+        "category": "CategoryVFTAGs",
+        "pages": 118,
+        "price": 370.0
+    },
+    {
+        "id": 1556,
+        "name": "nameXGYBLQ",
+        "author": "authorcAZZNn",
+        "publication": "Hola",
+        "category": "CategoryOmqHBh",
+        "pages": 959,
+        "price": 893.0
+    },
+    {
+        "id": 1557,
+        "name": "nameLRiUwf",
+        "author": "authorkSkRbn",
+        "publication": "Lords",
+        "category": "CategoryhLQPam",
+        "pages": 234,
+        "price": 744.0
+    },
+    {
+        "id": 1558,
+        "name": "nameolhXUR",
+        "author": "authorIQWTRG",
+        "publication": "Bonny",
+        "category": "CategoryghRCSp",
+        "pages": 478,
+        "price": 590.0
+    },
+    {
+        "id": 1559,
+        "name": "namevouTTl",
+        "author": "authorPYUajR",
+        "publication": "Lords",
+        "category": "CategorylvPsJX",
+        "pages": 537,
+        "price": 429.0
+    },
+    {
+        "id": 1560,
+        "name": "nameVsqely",
+        "author": "authorXVOitL",
+        "publication": "Hola",
+        "category": "CategorynBBQtb",
+        "pages": 869,
+        "price": 368.0
+    },
+    {
+        "id": 1561,
+        "name": "nameDlCmZs",
+        "author": "authorIpeXWD",
+        "publication": "Bobby",
+        "category": "CategoryzXnnIE",
+        "pages": 120,
+        "price": 778.0
+    },
+    {
+        "id": 1562,
+        "name": "namekZvUFG",
+        "author": "authorzzRVLv",
+        "publication": "Nana",
+        "category": "CategoryiFDAsT",
+        "pages": 947,
+        "price": 131.0
+    },
+    {
+        "id": 1563,
+        "name": "nameblmcGr",
+        "author": "authorPPESag",
+        "publication": "Bonny",
+        "category": "CategoryXGvEko",
+        "pages": 465,
+        "price": 475.0
+    },
+    {
+        "id": 1564,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 240,
+        "price": 29.26
+    },
+    {
+        "id": 1566,
+        "name": "nameLTbArU",
+        "author": "authoryMOxXR",
+        "publication": "Hola",
+        "category": "CategoryJnbunq",
+        "pages": 217,
+        "price": 154.0
+    },
+    {
+        "id": 1567,
+        "name": "nameWGoTZf",
+        "author": "authorOoidKv",
+        "publication": "Lords",
+        "category": "CategoryANAbxZ",
+        "pages": 140,
+        "price": 136.0
+    },
+    {
+        "id": 1568,
+        "name": "nameuvHAlu",
+        "author": "authorDTUuwU",
+        "publication": "Nana",
+        "category": "CategorytyNikh",
+        "pages": 514,
+        "price": 789.0
+    },
+    {
+        "id": 1569,
+        "name": "namejPcxVR",
+        "author": "authorksYrie",
+        "publication": "Bobby",
+        "category": "CategoryBqTMia",
+        "pages": 315,
+        "price": 210.0
+    },
+    {
+        "id": 1570,
+        "name": "nameOfIRZx",
+        "author": "authorWIxYHd",
+        "publication": "Bonny",
+        "category": "CategoryWNNKuY",
+        "pages": 348,
+        "price": 837.0
+    },
+    {
+        "id": 1571,
+        "name": "nameZyIkJx",
+        "author": "authorYRtaOe",
+        "publication": "Hola",
+        "category": "CategorydPtbjN",
+        "pages": 211,
+        "price": 756.0
+    },
+    {
+        "id": 1572,
+        "name": "nameHjiCNt",
+        "author": "authorEgpezd",
+        "publication": "Bobby",
+        "category": "CategorywqSolM",
+        "pages": 332,
+        "price": 380.0
+    },
+    {
+        "id": 1573,
+        "name": "namemOLUEd",
+        "author": "authorhiPXBa",
+        "publication": "Lords",
+        "category": "CategoryqqVKkf",
+        "pages": 140,
+        "price": 348.0
+    },
+    {
+        "id": 1574,
+        "name": "nameKvdkQc",
+        "author": "authorjfjOzi",
+        "publication": "Nana",
+        "category": "CategoryEgdaGd",
+        "pages": 863,
+        "price": 776.0
+    },
+    {
+        "id": 1575,
+        "name": "namerVVZxC",
+        "author": "authorggbvEA",
+        "publication": "Bonny",
+        "category": "CategorytsfSsG",
+        "pages": 735,
+        "price": 256.0
+    },
+    {
+        "id": 1576,
+        "name": "namejFLZOn",
+        "author": "authorTlfvpN",
+        "publication": "Lords",
+        "category": "CategoryYUUQnd",
+        "pages": 510,
+        "price": 585.0
+    },
+    {
+        "id": 1577,
+        "name": "nameheiXIF",
+        "author": "authorlxcDaY",
+        "publication": "Bobby",
+        "category": "CategorymokEON",
+        "pages": 791,
+        "price": 579.0
+    },
+    {
+        "id": 1578,
+        "name": "nameDSawGD",
+        "author": "authorAItItw",
+        "publication": "Nana",
+        "category": "CategoryOajldb",
+        "pages": 330,
+        "price": 824.0
+    },
+    {
+        "id": 1579,
+        "name": "nameQbpfJN",
+        "author": "authorjypRXb",
+        "publication": "Hola",
+        "category": "CategoryKirnxA",
+        "pages": 156,
+        "price": 580.0
+    },
+    {
+        "id": 1580,
+        "name": "namejwYaCA",
+        "author": "authorlNhyKm",
+        "publication": "Bonny",
+        "category": "CategoryxPMuNy",
+        "pages": 635,
+        "price": 551.0
+    },
+    {
+        "id": 1586,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -4,
+        "price": -4.0
+    },
+    {
+        "id": 1588,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -4,
+        "price": -4.0
+    },
+    {
+        "id": 1593,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -4,
+        "price": 29.26
+    },
+    {
+        "id": 1595,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": -4,
+        "price": 29.26
+    },
+    {
+        "id": 1604,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 240,
+        "price": 29.26
+    },
+    {
+        "id": 1607,
+        "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Robert C. Martin",
+        "publication": "Prentice Hall",
+        "category": "Programming",
+        "pages": 464,
+        "price": 22.0
+    },
+    {
+        "id": 1612,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 999,
+        "price": 29.26
+    },
+    {
+        "id": 1621,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "<category>",
+        "pages": 240,
+        "price": 29.26
+    },
+    {
+        "id": 1622,
+        "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Robert C. Martin",
+        "publication": "Prentice Hall",
+        "category": "<category>",
+        "pages": 464,
+        "price": 22.0
+    },
+    {
+        "id": 1623,
+        "name": "&quot;cool&quot;",
+        "author": "'n'\\t    ${}",
+        "publication": "null",
+        "category": "<category>",
+        "pages": 999,
+        "price": 29.26
+    },
+    {
+        "id": 1625,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 999,
+        "price": 29.26
+    },
+    {
+        "id": 1626,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 240,
+        "price": 29.26
+    },
+    {
+        "id": 1632,
+        "name": "&quot;cool&quot;",
+        "author": "'n'\\t    ${}",
+        "publication": "null",
+        "category": "<category>",
+        "pages": 999,
+        "price": 100.01
+    },
+    {
+        "id": 1633,
+        "name": "No content",
+        "author": "author",
+        "publication": "publication",
+        "category": "<category>",
+        "pages": -4,
+        "price": -4.0
+    },
+    {
+        "id": 1634,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "<category>",
+        "pages": 240,
+        "price": 29.26
+    },
+    {
+        "id": 1638,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 999,
+        "price": 29.26
+    },
+    {
+        "id": 1641,
+        "name": "Study of Mediterranean History",
+        "author": "H. J. S. Finch, A. M. Samuel and G. P. F. Lane",
+        "publication": "Oxford",
+        "category": "Historic",
+        "pages": 222,
+        "price": 8000.0
+    },
+    {
+        "id": 1645,
+        "name": "&quot;cool&quot;",
+        "author": "'n'\\t    ${}",
+        "publication": "null",
+        "category": "<category>",
+        "pages": 999,
+        "price": 100.01
+    },
+    {
+        "id": 1647,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 999,
+        "price": 29.26
+    },
+    {
+        "id": 1649,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1652,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1653,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1654,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1655,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1656,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1657,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1658,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1659,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 601,
+        "price": 15.0
+    },
+    {
+        "id": 1660,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1661,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1662,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1663,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1664,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1665,
+        "name": "Endless Night",
+        "author": "Hanna Musia#",
+        "publication": "E. P. Dutton",
+        "category": "Fiction narrative",
+        "pages": 342,
+        "price": 260.57
+    },
+    {
+        "id": 1667,
+        "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Robert C. Martin",
+        "publication": "Prentice Hall",
+        "category": "Programming",
+        "pages": 464,
+        "price": 22.0
+    },
+    {
+        "id": 1669,
+        "name": "No content",
+        "author": "author",
+        "publication": "publication",
+        "category": "publication",
+        "pages": -4,
+        "price": -4.0
+    },
+    {
+        "id": 1671,
+        "name": "Fairy Tale",
+        "author": "Stephen King",
+        "publication": "None",
+        "category": "Fantasy",
+        "pages": 599,
+        "price": 15.0
+    },
+    {
+        "id": 1672,
+        "name": "Study of Mediterranean History",
+        "author": "H. J. S. Finch, A. M. Samuel and G. P. F. Lane",
+        "publication": "Oxford",
+        "category": "Historic",
+        "pages": 222,
+        "price": 8000.0
+    },
+    {
+        "id": 1673,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 240,
+        "price": 29.26
+    },
+    {
+        "id": 1675,
+        "name": "Study of Mediterranean History",
+        "author": "H. J. S. Finch, A. M. Samuel and G. P. F. Lane",
+        "publication": "Oxford",
+        "category": "Historic",
+        "pages": 222,
+        "price": 8000.0
+    },
+    {
+        "id": 1678,
+        "name": "&quot;cool&quot;",
+        "author": "'n'\\t    ${}",
+        "publication": "null",
+        "category": "//s",
+        "pages": 999,
+        "price": 100.01
+    },
+    {
+        "id": 1681,
+        "name": "Test Driven Development: By Example",
+        "author": "Kent Beck",
+        "publication": "Addison-Wesley Professional",
+        "category": "Programming",
+        "pages": 240,
+        "price": 29.26
+    },
+    {
+        "id": 1684,
+        "name": "Europe: A History",
+        "author": "Norman Davies",
+        "publication": "Amazon",
+        "category": "History",
+        "pages": 626,
+        "price": 23.0
+    },
+    {
+        "id": 1686,
+        "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "author": "Robert C. Martin",
+        "publication": "Prentice Hall",
+        "category": "Programming",
+        "pages": 464,
+        "price": 22.0
+    },
+    {
+        "id": 1687,
+        "name": "&quot;cool&quot;",
+        "author": "'n'\\t    ${}",
+        "publication": "null",
+        "category": "//s",
+        "pages": 999,
+        "price": 100.01
+    },
+    {
+        "id": 1688,
+        "name": "No content",
+        "author": "author",
+        "publication": "publication",
+        "category": "publication",
+        "pages": -4,
+        "price": -4.0
+    }
+]

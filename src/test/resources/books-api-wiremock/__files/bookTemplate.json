@@ -4,6 +4,6 @@
   "author": "{{jsonPath request.body '$.author'}}",
   "publication": "{{jsonPath request.body '$.publication'}}",
   "category": "{{jsonPath request.body '$.category'}}",
-  "pages": "{{jsonPath request.body '$.pages'}}",
-  "price": "{{jsonPath request.body '$.price'}}"
+  "pages": {{jsonPath request.body '$.pages'}},
+  "price": {{jsonPath request.body '$.price'}}
 }

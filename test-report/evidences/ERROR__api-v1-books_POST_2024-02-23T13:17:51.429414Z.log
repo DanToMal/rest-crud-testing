@@ -1,8 +1,0 @@
-POST http://77.102.250.113:17354/api/v1/books => 500 HTTP/1.1 500  
-Request Body => {"id":1638,"name":"Test Driven Development: By Example","author":"Kent Beck","publication":"Addison-Wesley Professional","category":"Programming","pages":999,"price":"29.26"} 
-Response Status => 500 Response Body => {
-    "timestamp": "2024-02-23T13:17:51.495+00:00",
-    "status": 500,
-    "error": "Internal Server Error",
-    "path": "/api/v1/books"
-}

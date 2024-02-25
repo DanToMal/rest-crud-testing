@@ -23,6 +23,11 @@ public abstract class AbstractBooksStepDefinitions {
                 .isEqualTo(expectedStatusCode);
     }
 
+    protected Book parseResponseToBook(Response response) {
+        return parseResponse(response, new TypeRef<>() {
+        });
+    }
+
     @Nullable
     protected <T> T parseResponse(Response response, TypeRef<T> typeRef) {
         if (response.getStatusCode() == HttpStatus.INTERNAL_SERVER_ERROR_500) {

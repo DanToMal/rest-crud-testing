@@ -24,7 +24,6 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 @Component
 @ConditionalOnProperty(name = "wiremock.enabled")
 public class WireMockServer {
-    private static final String PATH_PARAM = "/{bookId}";
     private final BooksApiConfig config;
     private final Resource dir;
 
@@ -63,29 +62,27 @@ public class WireMockServer {
     }
 
     private StubMapping getBookById() {
-        String basePath = resolveBasePath();
-        return stubMapping(WireMock::get, urlPathTemplate(basePath + "/{bookId}"), "bookByIdTemplate.json", 200)
-                .withPathParam("bookId", matching("[0-9]+"))
-                .build();
+        return stubBookTemplateWithId(WireMock::get, "bookByIdTemplate.json");
     }
 
     private StubMapping putBook() {
-        String basePath = resolveBasePath();
-        return stubMapping(WireMock::put, urlPathTemplate(basePath + "/{bookId}"), "bookTemplate.json", 200)
-                .withPathParam("bookId", matching("[0-9]+"))
-                .build();
+        return stubBookTemplateWithId(WireMock::put, "bookTemplate.json");
     }
 
     private StubMapping deleteBook() {
-        String basePath = resolveBasePath();
-        return stubMapping(WireMock::delete, urlPathTemplate(basePath + "/{bookId}"), "bookTemplate.json", 200)
-                .withPathParam("bookId", matching("[0-9]+"))
-                .build();
+        return stubBookTemplateWithId(WireMock::delete, "bookTemplate.json");
     }
 
     private StubMapping postBook() {
         UrlPattern basePath = urlEqualTo(resolveBasePath());
         return stubMapping(WireMock::post, basePath, "createBookTemplate.json", 200)
+                .build();
+    }
+
+    private StubMapping stubBookTemplateWithId(Function<UrlPattern, MappingBuilder> method, String template) {
+        String basePath = resolveBasePath();
+        return stubMapping(method, urlPathTemplate(basePath + "/{bookId}"), template, 200)
+                .withPathParam("bookId", matching("[0-9]+"))
                 .build();
     }
 

@@ -1,0 +1,8 @@
+PUT http://77.102.250.113:17354/api/v1/books/1694 => 500 HTTP/1.1 500  
+Request Body => {"id":1694,"name":"The Strategy of Denial American Defense in an Age of Great Power Conflict","author":"Elbridge A. Colby","publication":"Yale University Press","category":"Military","pages":1500,"price":330.03} 
+Response Status => 500 Response Body => {
+    "timestamp": "2024-02-25T20:26:36.286+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/api/v1/books/1694"
+}

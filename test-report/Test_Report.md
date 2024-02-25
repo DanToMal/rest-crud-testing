@@ -45,38 +45,63 @@ Functional tests via [Automated Testing Suite](../README.md).
 ## Test Execution Summary
 
 Test Executed: 11\
-Test Passed: 6\
-Test Failed: 5\
+Test Passed: 2 (18%)\
+Test Failed: 9\
 Executed on: Mac OS X, OpenJDK 64-Bit Server VM 18.0.1.1+2-6\
-Please find details of each execution under [Cucumber-report](cucumber-report/cucumber.html)
+Details of [cucumber execution](cucumber-report/cucumber.html)\
+[evidences](evidences) of each Request/Response.
 ## Defect Report
-Defect #1 \
+#### Defect #1
+Defect Description: Internal Server Error after calling DELETE method.
+* [ERROR_api-v1-books_DELETE_2024-02-25T20:26:08.176448Z.log](evidences%2FERROR_api-v1-books_DELETE_2024-02-25T20%3A26%3A08.176448Z.log)
+* [ERROR_api-v1-books_DELETE_2024-02-25T20:26:12.377163Z.log](evidences%2FERROR_api-v1-books_DELETE_2024-02-25T20%3A26%3A12.377163Z.log)
+* [ERROR_api-v1-books_DELETE_2024-02-25T20:26:20.328143Z.log](evidences%2FERROR_api-v1-books_DELETE_2024-02-25T20%3A26%3A20.328143Z.log)
+* [ERROR_api-v1-books_DELETE_2024-02-25T20:26:23.151819Z.log](evidences%2FERROR_api-v1-books_DELETE_2024-02-25T20%3A26%3A23.151819Z.log)
+* [ERROR_api-v1-books_DELETE_2024-02-25T20:26:27.175051Z.log](evidences%2FERROR_api-v1-books_DELETE_2024-02-25T20%3A26%3A27.175051Z.log)
+* [ERROR_api-v1-books_DELETE_2024-02-25T20:26:33.463465Z.log](evidences%2FERROR_api-v1-books_DELETE_2024-02-25T20%3A26%3A33.463465Z.log)
+
+Steps to reproduce: Rerun "Delete Book via REST CRUD service" (or any other test which creates object calls DELETE at the end) scenario or curl with above requests.\
+Expected Result: book should be removed with success response.
+#### Defect #2 
 Defect Description: Book pages field value is not being updated after PUT method call.
-* [_api-v1-books_POST_2024-02-23T13:18:06.881563Z.log](evidences%2F_api-v1-books_POST_2024-02-23T13%3A18%3A06.881563Z.log)
-* [_api-v1-books_PUT_2024-02-23T13:18:09.434666Z.log](evidences%2F_api-v1-books_PUT_2024-02-23T13%3A18%3A09.434666Z.log)\
+* [api-v1-books_POST_2024-02-23T13:18:06.881563Z.log](evidences%2Fapi-v1-books_POST_2024-02-23T13%3A18%3A06.881563Z.log)
+* [api-v1-books_PUT_2024-02-23T13:18:09.434666Z.log](evidences%2Fapi-v1-books_PUT_2024-02-23T13%3A18%3A09.434666Z.log)
+
 Steps to reproduce: Rerun "Update Book via REST CRUD service" or curl with above data.\
 Expected Result: pages field value should be updated after PUT call accordingly.
 
-Defect #2 \
-Defect Description: Internal Server Error after calling POST method with a book which already exists (with id). \
-* [_api-v1-books_POST_2024-02-23T13:18:06.881563Z.log](evidences%2F_api-v1-books_POST_2024-02-23T13%3A18%3A06.881563Z.log)\
-Steps to reproduce: Rerun "Create a book which already exists" scenario or curl with above data. \
+#### Defect #3 
+Defect Description: Internal Server Error after calling POST method with a book which already exists (with id).
+* [ERROR_api-v1-books_POST_2024-02-25T20:26:13.840926Z.log](evidences%2FERROR_api-v1-books_POST_2024-02-25T20%3A26%3A13.840926Z.log)
 
-Defect #3 \
-Defect Description: Internal Server Error after calling DELETE method. \
-* [ERROR__api-v1-books_DELETE_2024-02-23T13:05:12.217253Z.log](evidences%2FERROR__api-v1-books_DELETE_2024-02-23T13%3A05%3A12.217253Z.log)
-* [ERROR__api-v1-books_DELETE_2024-02-23T13:05:20.223364Z.log](evidences%2FERROR__api-v1-books_DELETE_2024-02-23T13%3A05%3A20.223364Z.log)
-* [ERROR__api-v1-books_DELETE_2024-02-23T13:17:52.242677Z.log](evidences%2FERROR__api-v1-books_DELETE_2024-02-23T13%3A17%3A52.242677Z.log)
-* [ERROR__api-v1-books_DELETE_2024-02-23T13:18:05.243210Z.log](evidences%2FERROR__api-v1-books_DELETE_2024-02-23T13%3A18%3A05.243210Z.log) \
-Steps to reproduce: Rerun "Delete Book via REST CRUD service" scenario or curl with above data. \
+Steps to reproduce: Rerun "Create a book which already exists" scenario or curl with above data.
 
-Defect #4 \
+#### Defect #4
+Defect Description: 'pages' field value differs from the POST Payload request. \
+Field/property 'pages' differ:\
+actual value  : 628L\
+expected value: 626L
+* [api-v1-books_POST_2024-02-25T20:26:32.739998Z.log](evidences%2Fapi-v1-books_POST_2024-02-25T20%3A26%3A32.739998Z.log)
+
+#### Defect #5 
 Defect Description: Wrong scale of price field. Note, this behaviour is nondeterministic.\
 field/property 'price' differ: \
 actual value  : 29.260000100000003 \
 expected value: 29.26 
-* [_api-v1-books_POST_2024-02-23T13:17:33.763706Z.log](evidences%2F_api-v1-books_POST_2024-02-23T13%3A17%3A33.763706Z.log) \
-Steps to reproduce: Rerun "Create a Book: Positive" scenario or curl with above data. \
+* [api-v1-books_POST_2024-02-25T20:26:19.642814Z.log](evidences%2Fapi-v1-books_POST_2024-02-25T20%3A26%3A19.642814Z.log)
+Steps to reproduce: Rerun "Create a Book: Positive" scenario or curl with above data. 
+
+#### Defect #6
+Defect Description: Internal Server Error after calling POST with null values
+* [ERROR_api-v1-books_POST_2024-02-25T20:26:13.840926Z.log](evidences%2FERROR_api-v1-books_POST_2024-02-25T20%3A26%3A13.840926Z.log)
+
+Steps to reproduce: Rerun "Create a Book: empty_string" scenario or curl with above data.
+
+#### Defect #7
+Defect Description: DELETE response per documentation should return removed object JSON representation but actual response is "Book has been deleted successfully" plain text
+#### Defect #8 
+Defect Description: Negative numbers allowed for pages and price. It's not specified by documentation but no validation on those fields in API at the moment.
+
 
 ## Approvals
 N/A

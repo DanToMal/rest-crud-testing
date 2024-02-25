@@ -37,8 +37,11 @@ public class DeleteBookStepDefinitions extends AbstractBooksStepDefinitions {
         Book bookToDelete = booksContext.findBookByName(bookName);
         response = restClient.delete(bookToDelete.getId());
 
-        booksContext.remove(bookToDelete);
         responseStatusCodeIs(response, EXPECTED_STATUS_ON_DELETE);
+        booksContext.remove(bookToDelete);
+        Book actual = parseResponseToBook(response);
+        Assertions.assertThat(actual)
+                .isEqualTo(bookToDelete);
     }
 
     @Then("Deleted response content is {string}")
